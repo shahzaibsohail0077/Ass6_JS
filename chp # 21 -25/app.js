@@ -64,8 +64,8 @@ document.write("<h4>" + "Task # 08");
 
 var message = "Ali and Sami are best friends. They play cricket and football together.";
 document.write("<h4>" + message);
-var rep = message.replace("and", "&");
-document.write("<h4> " + "After replacement 'And': " + rep.replace("and", "&",));
+
+document.write("<h4> " + "After replacement 'And': " + message.replace(/and/g, "&",));
 
 
 // TASK # 09
