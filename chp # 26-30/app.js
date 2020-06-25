@@ -89,5 +89,5 @@ if(secret === randomvalue_3){
     alert("You win");
 }
 else(
-    alert("Try again!\n⬜ Prevent this page from creating additional dialogs.")
+    alert("Try again!\n⬜ Prevent this page from creating additional dialogs.");
 )
